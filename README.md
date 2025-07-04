@@ -1,7 +1,20 @@
-# Frontend-skeletons
+# Website Front-End Template
 
-This repository is owned by iCODE Software. All work contributed to this repository is the property of the organisation.
+## 💡 Overview
+Clean, responsive HTML/CSS/JS template for modern websites.
 
-**Project Manager & Senior Developer:** Allen Tanaka Muzorera
+## 📁 Structure
+- index.html: Landing page
+- /assets: CSS, JS, images, fonts
+- /components: Reusable HTML snippets
+- /docs: Documentation
 
-This repository contains frontend templates and skeletons that will be used as starting points for different projects managed by iCODE Software.
+## 🚀 Usage
+Open \`index.html\` in your browser or use VS Code's Live Server.
+
+## 🛠 Tech
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## 📜 License
