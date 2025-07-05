@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Main header styles */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.logo img{
+    width: 150px;
+    height: 75px;
+    object-fit: contain;
+    padding-top: 0px;
+    padding: 10px;
+}
+.search-holder form > input[type="search"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.search-holder form > button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 11px;
+    border: none;
+    margin-left: -5px;
+}
+/* Main header styles */
+
+/* Navigation styles */
+.main-menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.main-menu > ul > li {
+    position: relative; /* Needed for dropdown positioning */
+}
+.main-menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.main-menu > ul > li > a:hover {
+    background-color: red;
+}
+.drop {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    min-width: 160px;
+    z-index: 1000;
+}
+.drop > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: teal;
+    display: block;
+    width: 100%;
+}
+.drop > li > a:hover {
+    background-color: red;
+}
+.main-menu > ul > li:hover > .drop {
+    display: block;
+}
+/* Navigation styles */
